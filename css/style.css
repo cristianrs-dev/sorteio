@@ -1,0 +1,44 @@
+.tela{
+    max-width: 500px;
+    min-width: 350px;
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 300px;
+    width: 100px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.titulo{
+    text-align: center;
+}
+.main{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.painel{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+#numeros{
+    margin: 5px;
+}
+#nomes{
+    margin: 5px;
+}
+#display{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    float: right;
+}
+#sortear{
+    width: 100px;
+    margin: auto;
+}
