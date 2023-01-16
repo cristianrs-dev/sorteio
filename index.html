@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html >
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -14,8 +14,10 @@
         <div class="titulo">Number Draw</div>
         <div class="main">
             <div class="painel">
-                <button id="numeros">números</button>
-                <button id="nomes">nomes</button>
+                <input id="numero" type="text" placeholder="numeros">
+                <button onclick="displayCirculo()" id="numeros">números</button>
+                <input id="nome" type="text" placeholder="nome">
+                <button onclick="mostrarCampoNome()" id="nomes">nomes</button>
             </div>
     
             <div id="display">
