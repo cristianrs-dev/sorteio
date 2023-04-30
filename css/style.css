@@ -1,7 +1,10 @@
-.tela{
+body{
+    background-color:#dfe6e9;
+}
+.box{
     max-width: 500px;
-    min-width: 350px;
-    border: 1px solid black;
+    min-width: 300px;
+    border-radius: 10px;
     box-sizing: border-box;
     height: 300px;
     width: 100px;
@@ -9,12 +12,14 @@
     margin-top: 100px;
     display: flex;
     flex-direction: column;
+    background-color:#1e90ff;
 }
 .titulo{
+    margin-top: 20px;
     text-align: center;
 }
 .main{
-    margin-top: 80px;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -33,11 +38,19 @@
     margin: 5px;
 }
 #display{
-    border: 1px solid black;
+    border-radius: 50%;
     height: 100px;
     width: 100px;
     float: right;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
+.number,.titulo{
+    font-size: 40px;
+    color:#ffffff;
+}
+
 #sortear{
     width: 100px;
     margin: auto;

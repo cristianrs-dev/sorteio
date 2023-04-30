@@ -1,27 +1,33 @@
 function mostrarCampoNumero(){
-    let numero=document.getElementById("numero")
+    //let numero=document.querySelector("#numero")
     if(numero.style.display=="block"){
         numero.style.display="none"
     }else{
          return numero.style.display="block"
     }
-        
-}
-
-function displayCirculo(){
-    let numero=document.getElementById("numero")
-    let display=document.
-    getElementById("display")
-    if(mostrarCampoNumero()=="block"){
-        display.style.borderRadius="50px"
-    }
+     
+    
 }
 function mostrarCampoNome(){
-    let nome=document.getElementById("nome")
-    if(nome.style.display=="block"){
-        nome.style.display="none"
+
+    if(pessoas.style.display=="block"){
+        pessoas.style.display="none"
     }else{
-       return nome.style.display="block"
+         return pessoas.style.display="block"
     }
+     
+    
 }
+
+function getNumero(){
+    
+    let numero= parseFloat(document.getElementById
+    ("numero").value)
+    let display=document.querySelector(".number")
+    let sortear=Math.round(numero*Math.random())
+    display.innerHTML=sortear 
+
+    console.log(sortear);
+}
+
 
