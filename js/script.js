@@ -27,7 +27,6 @@ function getNumero(){
     let sortear=Math.round(numero*Math.random())
     display.innerHTML=sortear 
 
-    console.log(sortear);
 }
 
 
